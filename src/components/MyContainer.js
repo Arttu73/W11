@@ -1,6 +1,5 @@
 import MyList from './MyList'
 import React, { useState } from 'react';
-//a
 
 function MyContainer() {
 
@@ -16,8 +15,7 @@ function MyContainer() {
                 item.id === id ? { ...item, clicked: !item.clicked } : item
             )
         );    
-    }
-    
+    }  
     
     const onClick = () => {
         const newItem = {
